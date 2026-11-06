@@ -13,7 +13,7 @@ Sources : les 2 à 5 annonces validées à l'Étape 0, plus le profil actuel.
 3. Classer :
    - **Principal** : l'intitulé du poste tel que les recruteurs le tapent (ex. « Directeur des Opérations », « Head of RevOps », « Responsable ERP »). Prévoir aussi ses variantes FR/EN si le marché est bilingue (« COO », « Operations Director »).
    - **Secondaires** (5-10) : compétences métier (« pilotage de la performance », « gestion de projet ERP », « conduite du changement »).
-   - **Tertiaires** (5-15) : outils, méthodes, secteur, localisation (« Odoo », « Salesforce », « SQL », « industrie », « Paris »).
+   - **Tertiaires** (5-15) : outils, méthodes, secteur, localisation (« SAP », « Salesforce », « SQL », « industrie », « Paris »).
 4. Croiser avec le parcours réel : ne garder que les mots-clés que l'utilisateur peut prouver. Signaler les écarts (« Les annonces demandent X, vous n'en parlez pas : est-ce que vous l'avez pratiqué ? »).
 5. Montrer la carte à l'utilisateur en tableau court et la faire valider.
 
@@ -115,3 +115,30 @@ Compétences à rattacher : ...
 ```
 
 Compter réellement les caractères (avec un script si besoin) plutôt que les estimer.
+
+## 5. Mise à jour du profil, section par section
+
+Le livrable ne suffit pas : guider l'utilisateur jusqu'à ce que **chaque section soit effectivement mise à jour** sur LinkedIn. Procéder dans cet ordre, une section à la fois, en attendant sa confirmation (« fait ») avant de passer à la suivante, puis relire le profil (si un navigateur est connecté) pour vérifier.
+
+0. **Avant de commencer** : désactiver « Partager les modifications du profil avec votre réseau » (sinon chaque modification notifie les contacts). Le réactiver à la fin seulement si l'utilisateur veut annoncer un changement de poste.
+1. **En-tête (header) du profil**, via l'icône crayon de l'en-tête :
+   - photo de profil et bannière ;
+   - prénom, nom, pronoms facultatifs ;
+   - **titre (headline)** ;
+   - poste actuel et formation affichés dans l'en-tête ;
+   - **localisation** (ville visée) ;
+   - coordonnées : email pro, site ou portfolio (avec un libellé parlant) ;
+   - URL personnalisée du profil public.
+2. **Open to Work** : intitulés visés, lieux, télétravail, contrat, visibilité (recruteurs uniquement ou tout le monde).
+3. **Section À propos** + les 5 compétences principales.
+4. **Sélection (Featured)** : 2-3 éléments de preuve.
+5. **Expériences**, de la plus récente à la plus ancienne, une par une : intitulé, entreprise (page officielle liée), type de contrat, dates, lieu, mode (sur site, hybride, à distance), description, compétences rattachées, médias éventuels. Vérifier que les dates et intitulés sont identiques au CV.
+6. **Formation** : établissement (page officielle), diplôme, dates, spécialité, activités utiles.
+7. **Licences et certifications** : organisme, date, identifiant ou lien de vérification.
+8. **Compétences** : ajouter, épingler les principales, retirer les hors sujet.
+9. **Langues**, **projets**, **bénévolat** si pertinents pour le poste visé.
+10. **Recommandations** : envoyer 2-3 demandes avec un message préparé.
+11. **Paramètres de visibilité** : profil public visible des moteurs de recherche, sections publiques activées.
+12. **Contrôle final** : afficher le profil en mode public (« Voir en tant que public » sur la page du profil public) et vérifier titre, À propos, expériences et photo.
+
+Si Claude applique lui-même les modifications via le navigateur : même ordre, accord explicite de l'utilisateur avant chaque enregistrement, et capture ou relecture après chaque section.

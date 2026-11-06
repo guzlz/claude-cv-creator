@@ -16,6 +16,7 @@
 - [CV ATS ou CV design : lequel choisir ?](#cv-ats-ou-cv-design--lequel-choisir-)
 - [Pourquoi un CV compatible ATS pour un poste à responsabilité](#pourquoi-un-cv-compatible-ats-pour-un-poste-à-responsabilité)
 - [Optimisation du profil LinkedIn et SEO LinkedIn](#optimisation-du-profil-linkedin-et-seo-linkedin)
+- [Organiser sa recherche d'emploi avec Claude](#organiser-sa-recherche-demploi-avec-claude)
 - [Installation](#installation)
 - [Exemples de demandes](#exemples-de-demandes)
 - [FAQ](#faq)
@@ -58,9 +59,18 @@ Le skill applique une méthode complète ([`references/linkedin.md`](cv-builder/
 3. **Section À propos** : accroche visible avant « Voir plus », parcours chiffré, expertises, appel à l'action.
 4. **Expériences et compétences** : descriptions indexées, compétences rattachées à chaque poste, compétences épinglées.
 5. **Être trouvé par les recruteurs** : localisation, Open to Work (recruteurs uniquement ou public), profil complet, réseau.
-6. **Référencement Google du profil LinkedIn** : URL personnalisée, profil public visible des moteurs de recherche, liens depuis CV, site et GitHub.
+6. **Mise à jour complète du profil, section par section** : en-tête (photo, bannière, titre, poste actuel, localisation, coordonnées, URL), Open to Work, À propos, Sélection, chaque expérience, formation, certifications, compétences, recommandations.
+7. **Référencement Google du profil LinkedIn** : URL personnalisée, profil public visible des moteurs de recherche, liens depuis CV, site et GitHub.
 
 Par défaut, vous copiez-collez vous-même les textes proposés. Claude ne saisit jamais vos identifiants LinkedIn et ne modifie votre profil qu'avec votre accord, section par section.
+
+## Organiser sa recherche d'emploi avec Claude
+
+Pour que Claude ait toujours le bon contexte, structurez votre recherche d'emploi en trois éléments. Guide complet : [`GUIDE-recherche-emploi.md`](GUIDE-recherche-emploi.md).
+
+1. **Un dossier dédié sur votre ordinateur**, `Recherche-emploi/`, prêt à copier depuis [`kit-recherche-emploi/`](kit-recherche-emploi/) : documents de base, postes visés, un sous-dossier par candidature, suivi, entretiens, réseau.
+2. **Les documents de base déposés dès le départ** : CV actuel (.docx et .pdf), export PDF LinkedIn, diplômes, certificats, attestations employeurs, lettres de recommandation, portfolio, photo, 3 à 5 offres d'emploi cibles.
+3. **Un projet Claude « Recherche d'emploi »** avec des instructions prêtes à l'emploi ([modèle](kit-recherche-emploi/instructions-projet-claude.md)) et vos documents clés en connaissances. Sur Claude Desktop, reliez aussi le dossier (menu « + », « Add folder ») : Claude lit vos documents et range les CV et lettres adaptés au bon endroit.
 
 ## Installation
 
@@ -102,6 +112,10 @@ cv-builder/
 └── references/
     ├── linkedin.md          # Méthode d'optimisation LinkedIn et SEO
     └── ats.md               # ATS, Teamtailor vs ATS d'entreprise, règles de format
+kit-recherche-emploi/
+├── instructions-projet-claude.md   # Modèle d'instructions du projet Claude
+└── Recherche-emploi/               # Dossier à copier sur votre ordinateur
+GUIDE-recherche-emploi.md    # Méthode complète : projet, dossier, routine
 dist/
 └── cv-builder.skill         # Paquet prêt à importer dans Claude
 ```
@@ -112,4 +126,4 @@ MIT. Contributions et suggestions bienvenues via les issues.
 
 ---
 
-Mots-clés : skill Claude, Claude AI, Anthropic, CV ATS, CV optimisé, CV cadre, resume builder, ATS resume, optimisation LinkedIn, profil LinkedIn, titre LinkedIn, SEO LinkedIn, recherche d'emploi, chasseur de têtes, Teamtailor, Workday, lettre de motivation.
+Mots-clés : skill Claude, Claude AI, Anthropic, CV ATS, CV optimisé, CV cadre, resume builder, ATS resume, optimisation LinkedIn, profil LinkedIn, titre LinkedIn, SEO LinkedIn, recherche d'emploi, organiser sa recherche d'emploi, suivi de candidatures, projet Claude, Claude Desktop, chasseur de têtes, Teamtailor, Workday, lettre de motivation.

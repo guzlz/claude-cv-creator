@@ -9,6 +9,12 @@ Outil qui interroge l'utilisateur sur son parcours, puis produit un CV d'une pag
 
 Règle de fond : ne jamais inventer d'expérience, de chiffre, de compétence ou de titre. Tout vient de l'utilisateur ou de son profil existant. Un recruteur compare toujours le CV et le LinkedIn : une incohérence (dates, intitulés) coûte plus cher qu'un mot-clé manquant.
 
+## Organisation de la recherche d'emploi
+
+Le skill marche mieux quand la recherche d'emploi est organisée (guide complet dans `GUIDE-recherche-emploi.md` du dépôt) :
+- **Dossier `Recherche-emploi` relié** (Claude Desktop, menu « + », « Add folder ») : lire d'abord `00-Base` (CV, export LinkedIn, diplômes, certificats, attestations) et `01-Cible` (offres visées) avant de poser des questions. Ranger chaque livrable dans `02-Candidatures/AAAA-MM-Entreprise-Poste/` et mettre à jour `03-Suivi/`.
+- **Pas de dossier ni de projet dédié** : proposer en une ligne, sans bloquer la tâche, de créer un projet Claude « Recherche d'emploi » et un dossier `Recherche-emploi` sur l'ordinateur, pour que les prochaines candidatures partent avec tout le contexte.
+
 ## Étape 0 : Cadrage (poser ces questions d'abord, en une fois)
 
 Utiliser AskUserQuestion si disponible, sinon une liste courte en texte.
@@ -80,6 +86,7 @@ Suivre `references/linkedin.md` (le lire en entier avant de rédiger). En résum
 2. Réécrire chaque section avec ces mots-clés placés là où ils pèsent dans la recherche LinkedIn Recruiter et dans Google : **titre**, **intitulés d'expérience**, **compétences**, **À propos** (premières lignes surtout), puis descriptions d'expérience.
 3. Régler la visibilité (URL personnalisée, profil public visible des moteurs de recherche, localisation, Open to Work, photo, bannière).
 4. Vérifier la cohérence avec le CV (mêmes intitulés, dates, chiffres).
+5. **Accompagner la mise à jour réelle du profil**, section par section, en commençant par l'en-tête (photo, bannière, titre, poste actuel, localisation, coordonnées, URL), puis Open to Work, À propos, Sélection, chaque expérience, formation, certifications, compétences, recommandations et visibilité (ordre détaillé : section 5 de `references/linkedin.md`). Attendre la confirmation de l'utilisateur entre deux sections et vérifier le résultat.
 
 ## Style d'écriture (CV et LinkedIn)
 
